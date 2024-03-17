@@ -1,21 +1,22 @@
-import sys
+import sys #sys kütüphanesini ekledim
 print("Hoşgeldiniz bu program şifre kırıcı konusunda size yardımcı olabilir kötü kullanımında ben sorumlu değilim")
+#aşağıda kullanıcıdan bilgi aldım
 ad = input("adınızı giriniz:")
 soyad = input("Soyadınızı giriniz:")
 doğum_yılı = input("doğum yılınız:")
 tel_no_2_harfi = input("telefon numaranızın son 2 hanesi:")
 ensonşifre = input("hesabınızda en son hatırladığınız şifre:")
 yaş = input("yaşınız:")
-
+#devam etmek isteyip istemediğini sordum
 devam = input("işleme devam etmek istiyormusunuz evet/hayır")
 if devam == "evet":
     print("devam ediliyor...")
 else:
     print("hoşçakalın")
-    sys.exit()
+    sys.exit()#evet yazmassa program sonlanıcak
 
 print("şifreler oluşturuluyor...")
-
+#tüm şifreler
 print("""
 ##############################################################
 1.deneme şifreleriniz hepsini deneyin veya 2.denemeyi bekleyin
